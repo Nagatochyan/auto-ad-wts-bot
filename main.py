@@ -1,7 +1,8 @@
+
 import requests
 import schedule
 import time
-channelid=input(f'チャンネルID: ')
+channelid=input(f'サーバーID: ')
 naiyou=input(f'送る内容：')
 t0ken=input(f'貴方のtoken:')
 def qawsed():
@@ -12,6 +13,7 @@ def qawsed():
     'authorization':t0ken
     }
     r=requests.post("https://discord.com/api/v9/channels/"+channelid+"/messages",data=payload,headers=header)
+    print(naiyou+"send")
 schedule.every(1).minutes.do(qawsed)
 
 while True:
