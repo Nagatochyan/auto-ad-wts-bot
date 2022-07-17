@@ -12,6 +12,5 @@ def qawsed():
     header={
     'authorization':t0ken
     }
-    r=reqests.post("https://discord.com/api/v9/channels/"+channelid+"/messages",
-                   data＝payload,headers=header)
+    r=requests.post("https://discord.com/api/v9/channels/"+channelid+"/messages",data=payload,headers=header)
 schedule.every(teisoku).minutes.do(qawsed)
