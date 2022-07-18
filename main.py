@@ -4,10 +4,12 @@ import schedule
 import time
 channelid=input(f'サーバーID: ')
 naiyou=input(f'送る内容：')
-t0ken="YOUR TOKEN"
+t0ken=input(f'貴方のtoken:')
+d = open('word.txt', 'r', encoding="utf-8")
+mess = d.read()
 def qawsed():
     payload={
-        'content':naiyou
+        'content':mess
     }
     header={
     'authorization':t0ken
