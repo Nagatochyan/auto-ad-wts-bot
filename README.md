@@ -7,5 +7,5 @@ shop鯖のwtsや鯖の宣伝で低速がある所で自動で宣伝してくれ�
 This will send the message every 1 minutes.(schedule.every(1).minutes.do(qawsed)の中の番号を変えるとメッセージを送る頻度（？）が変わる。schedule.every(1).minutes.do(qawsed)だと１分ごとに送ります
 # 送るメッセージ
 送るメッセージはword.txtにいれてください。
-#実行 how-to-start
+# 実行 how-to-start
 python main.py
