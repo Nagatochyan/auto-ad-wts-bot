@@ -9,3 +9,5 @@ This will send the message every 1 minutes.(schedule.every(1).minutes.do(qawsed)
 送るメッセージはword.txtにいれてください。
 # 実行 how-to-start
 python main.py
+<img width="934" alt="image" src="https://user-images.githubusercontent.com/94958239/179449482-3d5f99a9-a0a2-4858-8628-a5796326c00c.png">
+
